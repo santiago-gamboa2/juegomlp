@@ -9,13 +9,13 @@ import readchar
 print("¡Bienvenido al Juego 'Presiona w para Ganar'!")
 
 while True:
-    key = readchar.readkey()[0]  # Captura solo el primer carácter
+    key = readchar.readkey()  # Captura solo el primer carácter
 
     # Imprimir la tecla presionada
     print(f"Presiona la tecla : '{key}'")
 
     # Verificar si la tecla presionada es "w"
-    if key == 'w':
+    if key == readchar.key.UP:
         print("¡Felicidades! ¡Presionaste 'w' y Ganaste!")
         break
 
