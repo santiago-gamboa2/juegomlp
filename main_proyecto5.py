@@ -104,8 +104,7 @@ if __name__ == "__main__":
 
     if respuesta == "si":
         print("¡Genial! Comencemos el juego.")
-        mapa_folder = "C:/Users/USUARIO/Desktop/mapas"
-
+        mapa_folder = "C:/Users/USUARIO/Desktop/juego/mapas"
         juego = JuegoArchivo(nb_jugador, mapa_folder)
         juego.main_loop()
     elif respuesta == "no":
