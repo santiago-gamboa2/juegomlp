@@ -12,7 +12,7 @@ def main():
         print(f"Número actual: {numero}")
         print("Presiona la tecla 'n' para incrementar el número hasta 50.")
 
-        key = readchar.readkey()[0]  # Captura solo el primer carácter
+        key = readchar.readkey()  # Captura solo el primer carácter
 
         if key == 'n':
             numero += 1

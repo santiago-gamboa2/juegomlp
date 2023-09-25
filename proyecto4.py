@@ -17,7 +17,7 @@ def mostrar_laberinto(mapa):
     limpiar_pantalla()
     for fila in mapa:
         print(''.join(fila))
-
+    print("Presiona 'q' en cualquier momento para salir del programa.")
 def main_loop(mapa, posicion_inicial, posicion_final):
     px, py = posicion_inicial
     
@@ -47,7 +47,7 @@ def main_loop(mapa, posicion_inicial, posicion_final):
             print("Saliendo del programa...")
             break
 
-print("Presiona 'q' en cualquier momento para salir del programa.")
+
 mapa_str = """
 ...############################
 ......#..#.....#..#...........#
